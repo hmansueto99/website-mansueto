@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/homeStyle.css" rel="stylesheet" type="text/css">
+    <script src="JS/StickyScroll.js"></script>
+    <title>IntroductionToJava</title>
+
+    <style> 
+
+        h1 {
+            color: #000000;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            margin-top: 100px;
+            margin-left: 10vw;
+            display: inline-block; 
+            border-bottom: 2px solid #333; 
+            padding-bottom: 5px; 
+            
+            
+
+        }    
+        h2{
+            color: #000000;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+           
+        }
+        .border-line{
+            border-bottom: 2px solid #000000; 
+            border-width: 100%;
+            padding-bottom: 5px; 
+            margin: 0;
+        }
+        h3{
+            color: #ff0000;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+
+        img {
+            width: 400px;
+            height: auto;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            
+        }
+        ul {
+            list-style-position: outside; 
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px; 
+            text-align: center;
+            font-weight: bold;
+        }
+        #img-jva{
+            width: 800px;
+            height: auto;
+            margin-top: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin: 50px;
+        }
+        #img-jva-pic{
+            width: 1000px;
+            height: auto;
+            margin-top: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin: 50px;
+        }
+        .img-container{
+            font-family: Arial, sans-serif;
+            text-align: center;
+            
+        }
+        #dl-icon{
+            width: 100px;
+            height: auto;
+        }
+        .text-container{
+            padding: 10px;
+            background-color: #0d63d4; 
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 5px #888888;
+            text-align: center;
+            width: 800px;
+            margin-left: 30vw;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    
+    <div class="topnav" id="myTopnav">
+          
+        <a href="HomePage.html" onclick="openNewTab()" target="_blank" class="active"  >Home</a>
+        <a href="AboutTheDev.html" onclick="openNewTab1()" target="_blank" class="active"  >About the developer</a>
+        <a href="IntroductionToJava.html" onclick="openNewTab2()" target="_blank" class="active"  >Introduction To Java</a>
+        <a href="ExploreMoreInJava.html"  onclick="openNewTab3()" target="_blank" class="active"  >Explore More in Java</a>
+        <a href="DownloadCompiler.html"  onclick="openNewTab4()" target="_blank" class="active"  >Download Compiler</a>
+        <a href="SamplePrograms.html"  onclick="openNewTab5()" target="_blank" class="active"  >Sample Programs</a>
+        <a href="main.html" class="logout" onclick="logout()">Log Out</a>
+       
+        </a>
+    </div>    
+<header>
+
+</header>
+<br>
+<div>
+    <h1>Introduction to Java Programming</h1>
+    <p>
+        Java is a powerful, versatile, and widely-used programming language that is known for its portability, reliability, and security features.
+        It <br>is used in a variety of applications, from web development to mobile apps, and is a key technology in the world of enterprise computing.
+    </p>
+    <div class="img-container">
+        <img  src="Images/intropic.gif" alt="JavaIntro">
+    </div>
+</div>
+    <div class="img-container">
+        <img id="img-jva" src="Images/JavaUse.jpg" alt="JavaIntro">
+    </div>
+    <div class="img-container">
+        <img id="img-jva" src="Images/JavaComp.png" alt="JavaIntro">
+    </div>
+      
+      <div class="img-container">
+
+            <img id="img-jva" src="Images/JavaStart.PNG" alt="JavaStart">
+            
+      </div>  
+        <div class="img-container">
+
+            <img src="Images/FirstOuput.PNG" alt="FirstOuput">
+            <p><br>Congratulations! on your first Java Program</p>
+        </div>  
+
+        <div class="img-container">
+
+            <img id="img-jva-pic" src="Images/syntax.PNG" alt="syntax">
+            
+        </div>  
+        <div class="text-container">
+        <h3>Note: The curly braces {} marks the beginning and the end of a block of code.</h3>
+        <p>
+            System is a built-in Java class that contains useful members, such as out, which is short for "output".<br> <br>The println() method, short for  "print line", 
+            is used to print a value to the screen (or a file).
+            <br>
+            <br>Don't worry too much about System, out and println(). Just know that you need them together to print stuff to the screen.
+            
+        </p>
+        <p>You should also note that each code statement must end with a semicolon (;).</p>
+    </div>
+        <br>
+        <br>
+
+        <div class="img-container">
+            <p>Click on the download icon to download the "Introduction to java" .ppt <p>
+                <a href="Files/Java_CH1.ppt" download>
+                  <img id="dl-icon" src="Images/download.gif" alt="dlc" >
+                </a>
+        </div>
+       <br>
+       <br>
+        <div class="border-line">
+
+        </div>
+    <h1>Java Data Types</h1>
+    <div class="img-container">
+
+        <img id="img-jva-pic" src="Images/Data-types-Java.jpg" alt="datatype">
+        
+    </div>  
+
+        <div class="img-container">
+            <h2>Primitive Data Types in Java</h2>
+            
+            <p>Primitive data are only single values and have no special capabilities.  There are 8 primitive data types. They are depicted below in tabular format below as follows:</p>
+            
+        </div>
+
+            <div class="img-container">
+                <img id="img-jva" src="Images/Primitive.PNG" alt="primitive">
+
+            </div>
+
+            <h2>Non-Primitive Data Types in Java</h2>
+
+            <div class="img-container">
+                <img id="img-jva-pic" src="Images/NonPrimitive.PNG" alt="nonprimitive">
+
+            </div>
+
+            <div class="img-container">
+                <img id="img-jva" src="Images/NonPrimitiveTypes.PNG" alt="nonprimitivetypes">
+
+            </div>
+
+            <div class="img-container">
+                <p>Click on the download icon to download the "Using Data in Java" .ppt <p>
+                    <a href="Files/Java_CH2.ppt" download>
+                      <img id="dl-icon" src="Images/download.gif" alt="dlc" >
+                    </a>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="border-line">
+
+            </div>
+     
+         <h1>Using Methods, Classes, and objects.</h1>  
+         <div class="img-container">
+
+            <img id="img-jva" src="Images/Methods.PNG" alt="Methods">
+            
+        </div>  
+        <div class="img-container">
+            <p>Click on the download icon to download the "Using Methods, Classes, and Objects" .ppt <p>
+                <a href="Files/Java_CH3.ppt" download>
+                  <img id="dl-icon" src="Images/download.gif" alt="dlc" >
+                </a>
+        </div>
+
+            <br>
+            <br>
+            <div class="border-line">
+
+            </div>
+
+        <h1>More Object Concepts</h1>  
+        <div class="img-container">
+
+            <img id="img-jva" src="Images/Obj.png" alt="Methods">
+            
+        </div>  
+         
+        <div class="img-container">
+            <p>Click on the download icon to download the "More Object Concepts." .ppt <p>
+                <a href="Files/Java_CH4.ppt" download>
+                  <img id="dl-icon" src="Images/download.gif" alt="dlc" >
+                </a>
+        </div>
+
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="your-integrity-value-here" crossorigin="anonymous" />
+
+
+    <link href="CSS/homeStyle.css" rel="stylesheet" type="text/css">
+    <script src="JS/StickyScroll.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            margin-bottom: 100px;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            width: 300px; 
+            height: 300px; 
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: #000000;
+            font-weight: bolder;
+        }
+
+        h1 {
+            margin-top: 10vh;
+            color: #fff;
+            font-weight: bolder;
+        }
+
+        p {
+            color: #000000;
+            font-weight: bold;
+        }
+
+        #font-color {
+            color: #fff;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .skill {
+            margin-bottom: 10px;
+        }
+
+        .skill-label {
+            display: inline-block;
+            width: 100px;
+            font-weight: bold;
+        }
+
+        .skill-bar {
+            display: inline-block;
+            width: 200px;
+            height: 20px;
+            background-color: #ddd;
+            position: relative;
+        }
+
+        .skill-level {
+            display: block;
+            height: 100%;
+            background-color: #000000;
+        }
+
+        .text-container a {
+            color: #045faa;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        .text-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <title>About the Developer</title>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+
+            <a href="HomePage.html" onclick="openNewTab()" target="_blank" class="active"  >Home</a>
+            <a href="AboutTheDev.html" onclick="openNewTab1()" target="_blank" class="active"  >About the developer</a>
+            <a href="IntroductionToJava.html" onclick="openNewTab2()" target="_blank" class="active"  >Introduction To Java</a>
+            <a href="ExploreMoreInJava.html"  onclick="openNewTab3()" target="_blank" class="active"  >Explore More in Java</a>
+            <a href="DownloadCompiler.html"  onclick="openNewTab4()" target="_blank" class="active"  >Download Compiler</a>
+            <a href="SamplePrograms.html"  onclick="openNewTab5()" target="_blank" class="active"  >Sample Programs</a>
+            <a href="main.html" class="logout" onclick="logout()">Log Out</a>
+          
+    </div>
+
+    <header>
+        <h1>Harold Mansueto</h1>
+        <p id="font-color"> Web Developer</p>
+    </header>
+
+    <section>
+        <img src="Images/profile.gif" alt="Your Name">
+        <h2>About Me</h2>
+        <p>I'm Harold Mansueto the web developer of this website. I love playing computer games, playing basketball, programming, web developing, and etc.</p>
+
+        <section>
+            <h2>Skills</h2>
+            <div class="skill">
+                <span class="skill-label">HTML:</span>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 60%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span class="skill-label">CSS:</span>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 50%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span class="skill-label">JavaScript:</span>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;"></div>
+                </div>
+            </div>
+        </section>
+
+        <h2>Contacts:</h2>
+
+        <div class="text-container">
+            <p><i class="far fa-envelope"></i> Email: hmansueto99@gmail.com<br>
+            <i class="fas fa-phone"></i> Contact #: 09612055494<br>
+            <i class="fab fa-facebook"></i> Facebook: https://www.facebook.com/botangi187/ <br>
+            <i class="fab fa-youtube"></i> Youtube: https://www.youtube.com/channel/UCiyG_uL-vjeFOaI0_kVIhvw <br>
+            </p>
+        </div>
+        
+    </section>
+</body>
+</html>
