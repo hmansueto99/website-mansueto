@@ -29,7 +29,7 @@ function logIn() {
 
     if (found) {
         alert("Log in Success");
-        window.location.href = "HomePage.html";
+        window.location.href = "./HomePage";
     } else {
         document.getElementsByName("uname")[0].value = "";
         document.getElementsByName("psw")[0].value = "";
