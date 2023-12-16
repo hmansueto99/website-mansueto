@@ -29,7 +29,7 @@ function logIn() {
 
     if (found) {
         alert("Log in Success");
-        window.location.href = "./HomePage";
+        window.location.href = "/website-mansueto/HomePage.html";
     } else {
         document.getElementsByName("uname")[0].value = "";
         document.getElementsByName("psw")[0].value = "";
